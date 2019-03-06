@@ -18,6 +18,7 @@ public class Sort {
 		print(arr);
 	**/	
 		
+		//插入排序
 		insertSort(arr,7);
 		System.out.println("插入排序:");
 		print(arr);
@@ -46,7 +47,7 @@ public class Sort {
     public static void selectSort(int[]a,int n){
     	if(n<=1) return;
     	for(int i=0;i<n-1;i++){
-    		int pos=i;  //pos 每一轮比较最小值的位置 
+    		int pos=i;  //pos 姣忎竴杞瘮杈冩渶灏忓�鐨勪綅缃�
     		for(int j=i+1;j<n;j++){
     			if(a[pos]>a[j]){
     				pos=j;
@@ -83,5 +84,5 @@ public class Sort {
 			System.out.print(a[i]+" ");
 		}
     }
-    System.out.println("做个测试")；
+
 }
