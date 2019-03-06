@@ -7,19 +7,19 @@ public class Sort {
 	public static void main(String[] args) {
 		
 		int[] arr= new int[]{8,17,6,5,34,22,12};
-		//Ã°ÅİÅÅĞò
+		//å†’æ³¡æ’åº
 	/** bubbleSort(arr,7);
-		System.out.println("Ã°ÅİÅÅĞò:");
+		System.out.println("å†’æ³¡æ’åº:");
 		print(arr);
-	    //Ñ¡ÔñÅÅĞò
+	    //é€‰æ‹©æ’åº
 
         selectSort(arr,7);
-		System.out.println("Ñ¡ÔñÅÅĞò:");
+		System.out.println("é€‰æ‹©æ’åº:");
 		print(arr);
 	**/	
 		
 		insertSort(arr,7);
-		System.out.println("²åÈëÅÅĞò:");
+		System.out.println("æ’å…¥æ’åº:");
 		print(arr);
 	
      
@@ -46,7 +46,7 @@ public class Sort {
     public static void selectSort(int[]a,int n){
     	if(n<=1) return;
     	for(int i=0;i<n-1;i++){
-    		int pos=i;  //pos Ã¿Ò»ÂÖ±È½Ï×îĞ¡ÖµµÄÎ»ÖÃ 
+    		int pos=i;  //pos æ¯ä¸€è½®æ¯”è¾ƒæœ€å°å€¼çš„ä½ç½® 
     		for(int j=i+1;j<n;j++){
     			if(a[pos]>a[j]){
     				pos=j;
@@ -83,5 +83,5 @@ public class Sort {
 			System.out.print(a[i]+" ");
 		}
     }
-
+    System.out.println("åšä¸ªæµ‹è¯•")ï¼›
 }
